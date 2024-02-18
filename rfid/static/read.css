@@ -1,0 +1,359 @@
+@media  screen and (max-width:480px){
+    .d1{
+        height: 7.6%;
+        right: 9%;
+        width: 90%;
+        position:fixed ;
+        top: 20px;
+        background-color:#d3e5f8 ;
+        border-radius: 30px;
+        left: 5%;
+        
+}
+.w1{
+    position:fixed ;
+    top: 23px;
+    font-size: 27px;
+    left: 11%;
+    
+    
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.r1{
+    position:fixed ;
+    top: 23px;
+    font-size: 27px;
+    left: 42%;
+    color : #0277B5;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.t1{
+    position:fixed ;
+    top: 23px;
+    font-size: 27px;
+    left: 73%;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.line{
+    background-color: #0277B5;
+    height: 1%;
+    width: 18%;
+    position:fixed ;
+    top: 71px;
+    right: 42.5%; 
+    cursor: pointer;
+}
+
+.location{
+    background-color: #f2f4f6;
+    height: 6%;
+    right: 11%;
+    width: 73%;
+    position:fixed ;
+    top: 198px;
+    border-radius: 45px;
+    border: 0px solid #f2f4f6;
+    font-family: 'Rubik', sans-serif;
+    padding-left: 20px;
+    font-size: 25px;
+}
+.loc {
+    color: black;
+    top: 140px;
+    position: fixed;
+    left: 50%; /* Center horizontally */
+    transform: translateX(-50%); /* Adjust for centering */
+    font-size: 21px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+
+.d2{
+    height: 84%;
+        right: 9%;
+        left: 5%;
+        width: 90%;
+        position:fixed ;
+        top: 100px;
+        background-color: #e2ebf4;
+        border-radius: 40px;
+       
+
+}
+.detail{
+    color: black;
+    top: 118px;
+    position:fixed ;
+    left: 12%; 
+    font-size: 24px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.pr1{
+    color: black;
+    top: 160px;
+    position:fixed ;
+    left: 14.5%; 
+    font-size: 22px;
+    width: 80%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.bn1{
+    color: black;
+    top: 200px;
+    position:fixed ;
+    left: 14.5%; 
+    width: 80%;
+    font-size: 22px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.mno1{
+    color: black;
+    top: 245px;
+    position:fixed ;
+    left: 14.5%; 
+    width: 80%;
+    font-size: 22px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.so1{
+    color: black;
+    top: 290px;
+    position:fixed ;
+    left: 14.5%; 
+    width: 80%;
+    font-size: 22px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+     word-wrap: break-word;
+}
+.de1{
+    color: black;
+    top: 380px;
+    position:fixed ;
+    left: 14.5%; 
+    font-size: 22px;
+    width: 80%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    word-wrap: break-word;
+}
+.padate{
+    color: black;
+    top: 470px;
+    position:fixed ;
+    left: 14.5%; 
+    font-size: 22px;
+    width: 80%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.exdate{
+    color: black;
+    top: 510px;
+    position:fixed ;
+    left: 14.5%; 
+    font-size: 22px;
+    width: 80%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.place{
+    color: black;
+    top: 550px;
+    position:fixed ;
+    left: 14.5%; 
+    font-size: 22px;
+    width: 80%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    word-wrap: break-word;
+}
+.no{
+    color: black;
+    top: 590px;
+    position:fixed ;
+    left: 14.5%; 
+    font-size: 22px;
+    width: 80%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.tag{
+    color: black;
+    top: 630px;
+    position:fixed ;
+    left: 14.5%; 
+    width: 80%;
+    font-size: 22px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.pass{
+    color: black;
+    top: 670px;
+    position:fixed ;
+    left: 14.5%; 
+    font-size: 22px;
+    width: 80%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.d3 {
+    background: white;
+    height: 235px;
+    width: 376px;
+    position: fixed;
+    top: 286px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 34px;
+    cursor: pointer;
+}
+
+.fa-circle-user{
+    top: 133px;
+    position: fixed;
+   font-size: 34px;
+   color: rgb(26, 27, 28);
+    left: 83%;
+    
+  
+}
+.fa-triangle-exclamation{
+    top: 18px;
+    position: fixed;
+    font-size: 30px;
+    color: rgb(235, 8, 8);
+     left: 48%;
+}
+.warn{
+    
+        color: black;
+        top: 216px;
+        position:fixed ;
+        left: 38%; 
+        font-size: 22px;
+        font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
+}
+.detail2{
+    color: black;
+    top: 418px;
+    position:fixed ;
+    left: 10.5%; 
+    font-size: 24px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+.name{
+    color: black;
+    top: 465px;
+    position:fixed ;
+    left: 14.5%; 
+    font-size: 24px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+.model{
+    color: black;
+    top: 515px;
+    position:fixed ;
+    left: 14.5%; 
+    font-size: 24px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+.batch{
+    color: black;
+    top: 565px;
+    position:fixed ;
+    left: 14.5%; 
+    font-size: 24px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+.source{
+    color: black;
+    top: 615px;
+    position:fixed ;
+    left: 14.5%; 
+    font-size: 24px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    width: 80%;
+    word-wrap: break-word;
+}
+.submit{
+    height: 5%;
+    width: 25%;
+    position:fixed ;
+    top: 725px;
+    right: 29.5%; 
+    border-radius: 20px;
+    cursor: pointer;
+    font-size: 20px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+
+}
+.next{
+    background-color: #0277B5;
+    height: 5%;
+    width: 25%;
+    position:fixed ;
+    top: 720px;
+    right: 37%; 
+    border-radius: 20px;
+    cursor: pointer;
+}
+.info{
+    
+    color: black;
+    top: 243px;
+    width: 75%;
+    position:fixed ;
+    left: 14%; 
+    font-size: 20px;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    word-wrap: break-word;
+
+
+}
+.warn1{
+    color: black;
+    top: 216px;
+    position: fixed;
+    left: 46%;
+    font-size: 22px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+.alert{
+    color: black;
+    top: 249px;
+    width: 75%;
+    position:fixed ;
+    left: 14%; 
+    font-size: 20px;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    word-wrap: break-word;
+
+
+}
+.warn2{
+    color: black;
+    top: 216px;
+    position: fixed;
+    left: 44%;
+    font-size: 22px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+
+}
+.expired{
+    color: black;
+    top: 249px;
+    width: 75%;
+    position:fixed ;
+    left: 13%; 
+    font-size: 20px;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    word-wrap: break-word;
+
+}
+
+}
