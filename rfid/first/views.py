@@ -5,13 +5,13 @@ def home(request):
 def read(request):
     return render(request,'read.html')
 def read1(request):
-    return render(request,'read1.html')
-def read2(request):
-    return render(request,'read2.html')
-def read3(request):
-    return render(request,'read3.html')
-def read4(request):
-    return render(request,'read4.html')
+    return render(request,'read1.html',{'correct'})
+def read1(request):
+    return render(request,'read1.html',{'outofrange'})
+def read1(request):
+    return render(request,'read1.html',{'alert'})
+def read1(request):
+    return render(request,'read1.html',{'expired'})
 def signin(request):
     return render(request,'signin.html')
 def signup(request):

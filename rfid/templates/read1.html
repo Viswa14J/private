@@ -16,8 +16,9 @@
         <p class="r1">Read</p>
         <p class="t1">Track</p>
     </p>
+{% if correct %}
     <p class="d2">
-        <i class="fa-regular fa-circle-user"></i>
+
         <p class="detail">Details:</p>
             <p class="pr1" for="prname" > Name:{{Name}}</p>
             <br>
@@ -49,5 +50,120 @@
             <p class="submit">Done</p>
             </p>
     </p>
+{% elif outofrange %}
+<p class="d2">
+    <p class="d3">
+        <i class="fa-solid fa-triangle-exclamation"></i>
+        <p class="warn">out of range</p>
+        <p class="info" name="info">The minimum and maximum temperature want to maintain {{min}} and {{max}}. 
+            so the current temperature has reached {{cur}}</p>
+    </p>
+        <p class="detail2">Detail:</p>
+        <br>
+        <p class="name" for="name" >Name:{{name}}</p>
+        <br>
+        <p class="batch" for="batch" >Batch no:{{batchno}}</p>
+        <br>
+        <p class="model" for="model" >Model no:{{modelno}}</p>
+        <br>
+        <p class="source" for="source" >Source Address:{{sourceaddress}}</p>
+        <br>
+        <p class="de" for="desaddress" >Destination Address:{{destinationaddress}}</p>
+        <br>
+        
+        <p class="pa" for="padate" >Packed Date:{{packeddate}}</p>
+        <br>
+        <p class="ex" for="expirydate">Expiry Date:{{expirydate}}</p>
+        <br>
+        <p class="pl" for="place" >Place of origin: {{placeoforigin}}</p>
+        
+        <p class="num" for="noquantity" >No.of.quantity:{{no.of.quantity}}</p>
+        <br>
+        
+        <p class="tagid" for="tagid" >Tag id:{{tagid}}</p>
+        <br>
+        
+        <p class="pas" for="maname" >place of arriving:{{placeofarriving}}</p>
+        <br>
+        <p class="nexts">
+        <p class="submits">Done</p>
+        </p>
+    
+</p>    
+{% elif alert %}
+    <p class="d2">
+      
+
+            <p class="d3">
+                <i class="fa-solid fa-triangle-exclamation"></i>
+                <p class="alert" name="alert">The current temperature of the product is  {{current}}, with a minimum of {{min}} and a  maximum of {{max}}.</p>
+                <p class="warn1">Alert</p>
+                <p class="detail2">Detail:</p>
+                <p class="name" for="name" >Name:{{name}}</p>
+                <p class="batch" for="batch" >Batch no:{{batchno}}</p>
+                <p class="model" for="model" >Model no:{{modelno}}</p>
+                <p class="source" for="source" >Source Address:{{sourceaddress}}</p>
+                <p class="de" for="desaddress" >Destination Address:{{destinationaddress}}</p>
+                <br>
+                
+                <p class="pa" for="padate" >Packed Date:{{packeddate}}</p>
+                <br>
+                <p class="ex" for="expirydate">Expiry Date:{{expirydate}}</p>
+                <br>
+                <p class="pl" for="place" >Place of origin: {{placeoforigin}}</p>
+                
+                <p class="num" for="noquantity" >No.of.quantity:{{no.of.quantity}}</p>
+                <br>
+                
+                <p class="tagid" for="tagid" >Tag id:{{tagid}}</p>
+                <br>
+                
+                <p class="pas" for="maname" >place of arriving:{{placeofarriving}}</p>
+            </p>
+            <p class="nexts">
+                <p class="submits">Done</p>
+                </p>
+    </p>    
+</p>
+{% elif user_role == "expired" %}
+<p class="d2">
+      
+
+    <p class="d3">
+        <i class="fa-solid fa-triangle-exclamation"></i>
+        <p class="expired">Attention: This product has expired. Kindly be advised
+            that it is no longer suitable for use. Please discard it responsibly. Thank
+            you for your understanding.
+        </p>
+        <p class="warn2">Expired</p>
+        <p class="detail2">Detail:</p>
+        <p class="name" for="name" >Name:{{name}}</p>
+        <p class="batch" for="batch" >Batch no:{{batchno}}</p>
+        <p class="model" for="model" >Model no:{{modelno}}</p>
+        <p class="source" for="source" >Source Address:{{sourceaddress}}</p>
+        <p class="de" for="desaddress" >Destination Address:{{destinationaddress}}</p>
+        <br>
+        
+        <p class="pa" for="padate" >Packed Date:{{packeddate}}</p>
+        <br>
+        <p class="ex" for="expirydate">Expiry Date:{{expirydate}}</p>
+        <br>
+        <p class="pl" for="place" >Place of origin: {{placeoforigin}}</p>
+        
+        <p class="num" for="noquantity" >No.of.quantity:{{no.of.quantity}}</p>
+        <br>
+        
+        <p class="tagid" for="tagid" >Tag id:{{tagid}}</p>
+        <br>
+        
+        <p class="pas" for="maname" >place of arriving:{{placeofarriving}}</p>
+    </p>
+    </p>
+    <p class="nexts">
+        <p class="submits">Done</p>
+        </p>
+</p>
+{% endif %} 
+    
 </body>
 </html>

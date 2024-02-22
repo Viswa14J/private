@@ -1,9 +1,10 @@
 @media  screen and (max-width:480px){
-.d1{
+
+    .d1{
         height: 7.6%;
         right: 9%;
         width: 90%;
-        position:fixed ;
+        position:absolute ;
         top: 20px;
         background-color:#d3e5f8 ;
         border-radius: 30px;
@@ -11,7 +12,7 @@
         
 }
 .w1{
-    position:fixed ;
+    position:absolute ;
     top: 23px;
     font-size: 27px;
     left: 11%;
@@ -20,35 +21,36 @@
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 .r1{
-    position:fixed ;
+    position:absolute;
     top: 23px;
     font-size: 27px;
     left: 42%;
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 .t1{
-    position:fixed ;
+    position:absolute;
     top: 23px;
     font-size: 27px;
     left: 73%;
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 .d2{
-    height: 84%;
+    height: 90%;
         right: 9%;
         width: 90%;
-        position:fixed ;
+        position:absolute ;
         top: 100px;
         background-color: #e2ebf4;
         border-radius: 40px;
         left: 5%;
+        overflow-y:  scroll;
         
 
 }
 .details{
     color: black;
     top: 115px;
-    position:fixed ;
+    position:absolute ;
     left: 33%; 
     font-size: 26px;
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
@@ -57,7 +59,7 @@
 .pr1{
     color: black;
     top: 185px;
-    position:fixed ;
+    position:absolute ;
     left: 22.5%; 
     font-size: 24px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -69,7 +71,7 @@
         height: 3.9%;
         left: 23%;
         width: 60%;
-        position:fixed ;
+        position:absolute ;
         top: 235px;
         border: 0px solid #f4f7fe;
         font-family: 'Rubik', sans-serif;
@@ -85,7 +87,7 @@ input::placeholder{
 .bn1{
     color: black;
     top: 290px;
-    position:fixed ;
+    position:absolute;
     left: 22.5%; 
     font-size: 24px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -96,7 +98,7 @@ input::placeholder{
         height: 3.9%;
         left: 23%;
         width: 60%;
-        position:fixed ;
+        position:absolute ;
         top: 340px;
         border: 0px solid #f4f7fe;
         font-family: 'Rubik', sans-serif;
@@ -107,7 +109,7 @@ input::placeholder{
 .mno1{
     color: black;
     top: 400px;
-    position:fixed ;
+    position:absolute ;
     left: 22.5%; 
     font-size: 24px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -118,7 +120,7 @@ input::placeholder{
         height: 3.9%;
         left: 23%;
         width: 60%;
-        position:fixed ;
+        position:absolute ;
         top: 450px;
         border: 0px solid #f4f7fe;
         font-family: 'Rubik', sans-serif;
@@ -129,7 +131,7 @@ input::placeholder{
 .n1{
     color: black;
     top: 510px;
-    position:fixed ;
+    position:absolute ;
     left: 22.5%; 
     font-size: 24px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -140,7 +142,7 @@ input::placeholder{
         height: 3.9%;
         left: 23%;
         width: 60%;
-        position:fixed ;
+        position:absolute ;
         top: 560px;
         border: 0px solid #f4f7fe;
         font-family: 'Rubik', sans-serif;
@@ -151,7 +153,7 @@ input::placeholder{
 .mna1{
     color: black;
     top: 620px;
-    position:fixed ;
+    position:absolute ;
     left: 22.5%; 
     font-size: 24px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -162,7 +164,7 @@ input::placeholder{
         height: 3.9%;
         left: 23%;
         width: 60%;
-        position:fixed ;
+        position:absolute ;
         top: 670px;
         border: 0px solid #f4f7fe;
         font-family: 'Rubik', sans-serif;
@@ -174,7 +176,7 @@ input::placeholder{
     background-color: #0277B5;
     height: 5%;
     width: 25%;
-    position:fixed ;
+    position:absolute ;
     top: 720px;
     right: 37%; 
     border-radius: 20px;
@@ -184,7 +186,7 @@ input::placeholder{
     
     height: 5%;
     width: 25%;
-    position:fixed ;
+    position:absolute;
     top: 725px;
     right: 30%; 
     border-radius: 20px;
@@ -196,7 +198,7 @@ input::placeholder{
 .sa1{
     color: black;
     top: 185px;
-    position:fixed ;
+    position:absolute;
     left: 22.5%; 
     font-size: 24px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -208,7 +210,7 @@ input::placeholder{
         height: 3.9%;
         left: 23%;
         width: 60%;
-        position:fixed ;
+        position:absolute ;
         top: 235px;
         border: 0px solid #f4f7fe;
         font-family: 'Rubik', sans-serif;
@@ -219,7 +221,7 @@ input::placeholder{
 .da1{
     color: black;
     top: 290px;
-    position:fixed ;
+    position:absolute ;
     left: 22.5%; 
     font-size: 24px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -231,7 +233,7 @@ input::placeholder{
     height: 3.9%;
     left: 23%;
     width: 60%;
-    position:fixed ;
+    position:absolute ;
     top: 340px;
     border: 0px solid #f4f7fe;
     font-family: 'Rubik', sans-serif;
@@ -242,7 +244,7 @@ input::placeholder{
 .md1{
     color: black;
     top: 400px;
-    position:fixed ;
+    position:absolute ;
     left: 22.5%; 
     font-size: 24px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -254,7 +256,7 @@ input::placeholder{
     height: 3.9%;
     left: 23%;
     width: 60%;
-    position:fixed ;
+    position:absolute ;
     top: 450px;
     border: 0px solid #f4f7fe;
     font-family: 'Rubik', sans-serif;
@@ -266,7 +268,7 @@ input::placeholder{
 .ed1{
     color: black;
     top: 510px;
-    position:fixed ;
+    position:absolute ;
     left: 22.5%; 
     font-size: 24px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -278,7 +280,7 @@ input::placeholder{
         height: 3.9%;
         left: 23%;
         width: 60%;
-        position:fixed ;
+        position:absolute ;
         top: 560px;
         border: 0px solid #f4f7fe;
         font-family: 'Rubik', sans-serif;
@@ -289,7 +291,7 @@ input::placeholder{
 .max1{
     color: black;
     top: 620px;
-    position:fixed ;
+    position:absolute ;
     left: 22.5%; 
     font-size: 24px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -300,7 +302,7 @@ input::placeholder{
     height: 3.9%;
     left: 23%;
     width: 20%;
-    position:fixed ;
+    position:absolute ;
     top: 670px;
     border: 0px solid #f4f7fe;
     font-family: 'Rubik', sans-serif;
@@ -310,7 +312,7 @@ input::placeholder{
 .min1{
     color: black;
     top: 620px;
-    position:fixed ;
+    position:absolute ;
     left: 58%; 
     font-size: 24px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -321,7 +323,7 @@ input::placeholder{
     height: 3.9%;
     left: 58%;
     width: 20%;
-    position:fixed ;
+    position:absolute;
     top: 670px;
     border: 0px solid #f4f7fe;
     font-family: 'Rubik', sans-serif;
@@ -331,7 +333,7 @@ input::placeholder{
 .submit{
     height: 5%;
     width: 25%;
-    position:fixed ;
+    position:absolute;
     top: 725px;
     right: 30%; 
     border-radius: 20px;
@@ -345,7 +347,7 @@ input::placeholder{
     background-color: #0277B5;
     height: 1%;
     width: 18%;
-    position:fixed ;
+    position:absolute;
     top: 71px;
     right: 72.5%; 
     cursor: pointer;
@@ -353,7 +355,7 @@ input::placeholder{
 .c1{
     top: 161px;
     background-color: #f4f7fe;
-    position: fixed;
+    position: absolute;
     height: 5%;
     width: 9%;
     border-radius: 81px;
@@ -363,7 +365,7 @@ input::placeholder{
 .c2{
     top: 380px;
     background-color: #f4f7fe;
-    position: fixed;
+    position:absolute;
     height: 5%;
     width: 9%;
     border-radius: 81px;
@@ -372,7 +374,7 @@ input::placeholder{
 }
 .no1{
     top: 164px;
-    position: fixed;
+    position:absolute;
     font-size: 23px;
     left: 14%;
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
@@ -380,7 +382,7 @@ input::placeholder{
 }
 .no2{
     top: 383px;
-    position: fixed;
+    position: absolute;
     font-size: 23px;
     left: 14%;
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
@@ -389,7 +391,7 @@ input::placeholder{
 }
 .no3{
     top: 164px;
-    position: fixed;
+    position: absolute;
     font-size: 23px;
     left: 14%;
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
@@ -398,22 +400,14 @@ input::placeholder{
 }
 .no4{
     top: 383px;
-    position: fixed;
+    position: absolute;
     font-size: 23px;
     left: 14%;
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     
     
 }
-.fa-circle-user{
-    top: 133px;
-    position: fixed;
-    font-size: 34px;
-    color: rgb(26, 27, 28);
-    left: 83%;
-    
 
-}
 .anchor{
     text-decoration: none;
     color:black;
