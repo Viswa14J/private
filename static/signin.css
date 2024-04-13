@@ -1,0 +1,165 @@
+body{
+    background-color: #f4f7fe;
+}
+.div2{
+    background-color: white;
+}
+.heading{
+    color: black;
+    font-family: 'Protest Strike', sans-serif;
+}
+.user{
+    background-color: #f2f4f6;
+    font-family: 'Rubik', sans-serif;
+    border-radius: 45px;
+    border: 0px solid #f2f4f6;
+    padding-left: 20px;
+}
+.sub{
+    color: gray;
+    font-family: 'Rubik', sans-serif;
+}
+.password{
+    background-color: #f2f4f6;
+    font-family: 'Rubik', sans-serif;
+    border-radius: 45px;
+    border: 0px solid #f2f4f6;
+    padding-left: 20px;
+}
+.signup{
+    color: gray;
+    
+    font-family: 'Rubik', sans-serif;
+}
+.drag{
+    color: black;
+    font-family:'Rubik', sans-serif;
+    background-color: #0277B5;
+
+
+    border:none;
+    height:50px;
+    width: 164px;
+    text-align: center;
+    line-height: 47px;
+    border-radius: 20px;
+   
+}
+.color{
+    color: red;
+    
+    
+ 
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+@media  screen and (max-width: 480px) 
+
+{
+  
+    
+
+    .div1{display: grid;
+        grid-template-columns: 15% 15% 40% 15% 15%;
+        grid-template-rows: 15% 15%  ; /* Divide the grid container into two equal columns */
+        gap: 10px; /* Add some space between the images */
+        align-items: center;
+        position: relative;
+
+    }
+    
+     .image{
+        width: 150px; /* Make the images responsive */
+
+    }
+    .logo{
+        
+        width: 50px;
+        border-radius: 405px;
+        grid-column: 1; /* Place the logo in the first column */
+  grid-row: 2;
+ 
+
+
+    }
+    .image{
+        grid-column: 3; /* Place the user image in the second column */
+        grid-row: 3;   
+    }
+   .div2{
+
+height: 583px;
+   margin: 0 auto;
+    position:relative;
+    border-radius: 45px;
+    display: grid;
+    grid-template-columns: 10% 20% 26% 28% 10%;
+    grid-template-rows: 9% 11% 14% 10% 6% 8.5% 10% 20%;
+   
+   }
+   .heading{
+    position:relative ;
+    word-wrap: break-word;
+    font-size: 28px;
+    grid-column-start: 2;
+    grid-column-end: 5;
+}
+.sub{
+    word-wrap: break-word;
+    position:relative ;
+    font-size: 21px;
+   grid-row: 2;
+   grid-column-start: 2;
+   grid-column-end: 5;
+}
+.user{
+    height: 54px;
+  
+    position:relative ;
+    word-wrap: break-word;
+    font-size: 25px;
+   grid-area: 3/2/3/5;
+}
+.password{
+      
+        height: 54px;
+        position:relative ;
+        font-size: 25px;
+        grid-area: 4/2/4/5;
+        word-wrap: break-word;
+}
+.signup{
+    text-align: center;
+    position:relative;
+    font-size: 20px;
+    cursor: pointer;
+    
+}
+.color{
+    word-wrap: break-word;
+    font-size: 21px;
+align-self: center;
+    position: relative;
+    grid-area:5/2/5/5 ;
+}
+.signup{
+    grid-area: 7/2/7/5;
+}
+.drag{
+    position:relative ;
+    font-size: 23px;
+    cursor: pointer;
+    border:none;
+    height:50px;
+    width: 164px;
+    align-self: center;
+    text-align: center;
+    line-height: 47px;
+    border-radius: 20px;
+    grid-area: 6/3/6/5
+   
+}
+.term{
+    grid-area: 8/2/8/5;
+}
+
+}
