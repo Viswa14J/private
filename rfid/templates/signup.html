@@ -8,27 +8,29 @@
     <title>Signup</title>
 </head>
 <body>
+    <div class="container">
+        <div class="div1">
+            <img class="logo" src="{% static '/photo/logo.jpg' %}" >
+            <img class="image"src="{% static '/photo/user.png' %}">
+        </div>
+        <div >
+            <form  action="{% url 'register1' %}" method="post" class="div2">
+                {%csrf_token%}
+        <h2 class="heading">Getting started</h2>
+        <p class="sub">create your account to continue</p>
+        
+        <input class="gmail" name="email" type="email" placeholder="gmail">
+        <input class="user" name="user" type="text" placeholder="username">
+        <input class="pass" name="pass" type="password" placeholder="password">
+     
+   
     
-    <img class="logo" src="{% static '/photo/logo.jpg' %}" >
-    <img class="image"src="{% static '/photo/user.png' %}">
-    <p class="login"> 
-        <h2 class="heading">Let's get something new</h2>
-        <p class="sub">Good to see you back</p>
-        <form >
-        <input class="username" id="user-name" name="user-name" placeholder="user-name">
-        <input class="password" id="password" name="password" placeholder="password">
-    </form method="post">
-    
-    
-    <p class="signup"></p>
-    <p class="signin">or <a class="anchor" href="{% url 'signin' %}" > sign in</a> with your google account</p>
-    <p class="term">By signing up you agree to our <a href="" > Terms of use </a><br>  
-        <p class="policy"> and <a href="" >privacy policy</a><br>            
-    <h1><p class="drag">sign up</p></h1>
-  
-
+   
+  <p class="color">{{error}}</p>
+    <p class="signup">Already have an account?<a class="anchor" href="signin.html" > sign in</a></p>
+    <button type="submit" class="drag">Sign up</button>
 
     </p>
-    
+</form></div>
+        </div>
 </body>
-</html>

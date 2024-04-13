@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    {% load static %}
+    <link rel="stylesheet"  href="{% static 'track.css' %}">
+    <title>Track2</title>
+</head>
+<body>
+    <div class="container">
+        <div class="div1">
+            <p><a     href="{% url 'write' %}">Write</a></p>
+            <p><a    href="{% url 'read' %}">Read</a></p>
+            <p><a class="hii">Track</a></p>
+
+      </div>
+      <div class="div33">
+        <div class="out">
+        <p class="num">{{number}}</p>
+        <p class="tran">Transit</p>
+        <input type="range" min="1" max="100" value="10" class="slider" id="myRange">
+            <p class="source">{{source}}</p>
+            <p class="dest">{{destination}}</p>
+        </div>
+        <p class="trac">TRACKING:</p>
+        {% for item in data %}
+        <div class="did">
+        <p class="s1">{{item.source1}}</p>
+        <p class="deg">{{item.deg}}</p>
+        <p class="tim">{{item.time}}</p>
+        </div>
+        {% endfor %}
+        <button class="submits"><a class="anchor" href="{% url 'home' %}"> 
+            Done
+        </a></button>
+    </div>
+    </div>
+
+</body>
+</html>

@@ -6,14 +6,12 @@
     {% load static %}
     <link rel="stylesheet"  href="{% static 'home.css' %}">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <title>{% block title %}Home{% endblock %}</title>
+    <title>Home</title>
 </head>
 <body>
-{% block content %}
-    <i class="fa-regular fa-circle-user"></i>
-    <img class="logo" src="{% static '/photo/logo.jpg' %}" class="logo">
-    <p class="profile"></p>
-    <p class="access"></p>
+    <div class="container">
+    <div class="div1">
+    <img src="{% static '/photo/logo.jpg' %}" class="logo">
     <p class="home">
         Home
     </p>
@@ -23,30 +21,38 @@
     <p class="contact">
         Contacts
     </p>
-    
-    
-    <p class="write"><h1 >
-        <a class="wr" href="{% url 'write' %}">
-            Write
+    <i class="fa-regular fa-circle-user"></i>
+    </div>
+    <div class="div2">
+       
+        <div class="write">
+            <p class="wr">
+            </p>
+        <h1 class="w1" >
+            <a class="ww" href="{% url 'register_w1' %}">Write</a></h1>
+      
+        <p class="w2">Write a detail of a product</p>
+     
+    </div>
+        
+    <div class="read">
+        <p class="Rr">
+        </p>
+    <h1 class="R1" >
+        <a  class="rr" href="{% url 'read' %}">Read</a></h1>
+  
+    <p class="R2">Read and get a details of the product</p>
+ 
+</div>
+<div class="track">
+    <p class="tr">
+    </p>
+<h1 class="t1" >
+   <a class="tt" href="{% url 'track' %}"> Track</a></h1>
 
-        </a>
-    </h1>
-        <p class="w1">Write a detail of a product</p>
-    </p>
-    <p class="write1"></p>
-    <p class="read">
-        <h1>
-            <a class="re" href="{% url 'read' %}">Read</a> </h1>
-        <p class="r1">Read and get a details <br> of the product</p>
-    </p>
-    <p class="read1"></p>
-    <p class="track">
-        <h1 >
-            <a class="tr" href="{% url 'track' %}">Track</a>
-            </h1>
-        <p class="t1">Enter tag id to track a <br> location</p>
-    </p>
-    <p class="track1"></p> 
-{% endblock %}
+<p class="t2">Enter tag id to track a location</p>
+
+</div>
+    </div>
+</div>
 </body>
-</html>

@@ -9,23 +9,29 @@
     <title>Signin</title>
 </head>
 <body>
-    
-    <img class="logo" src="{% static '/photo/logo.jpg' %}" >
-    <img class="image"src="{% static '/photo/user.png' %}">
-    <p class="login"> 
-        <h2 class="heading">Getting started</h2>
-        <p class="sub">create your account to continue</p>
-        <form method="post">
-        <input class="gmail" id="gmail" name="gmail" placeholder="gmail">
-        <input class="username" id="user-name" name="user-name" placeholder="user-name">
-        <input class="password" id="password" name="password" placeholder="password">
-    </form >
+  <div class="container">
+    <div class="div1">
+      <img class="logo" src="{% static '/photo/logo.jpg' %}" >
+      <img class="image"src="{% static '/photo/user.png' %}">
+    </div>
+    <div>
+    <form action="{% url 'register' %}" method="post" class="div2">
+      {% csrf_token %}
+        <h2 class="heading">Let's get something</h2>
+        <p class="sub">good to see you back.</p>
+        
+        <input type="email"class="user" name="email" placeholder="email">
+        <input type="password" class="password" name="password" placeholder="password">
+     
+   
     
    
-    <p class="signin"></p>
-    <p class="signup">Already have an account?<a class="anchor" href="{% url 'signup' %}" > sign up</a></p>
-    <h1><p class="drag">sign in</p></h1>
-
-    </p>
+  <p class="color">{{error}}</p>
+    <p class="signup">Already have an account?<a class="anchor" href="signup.html" > sign up</a></p>
+    <button type="submit" class="drag">Sign in</button>
+  
+   </form>
+  </div>
+    </div>
+</div>
 </body>
-</html>

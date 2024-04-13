@@ -9,51 +9,37 @@
     <title>Write1</title>
 </head>
 <body>
-<p class="d1">  
-    <p class="line"></p>
-    <p class="w1">Write</p>
-    <p class="r1">Read</p>
-    <p class="t1">Track</p>
-</p>  
-<p class="d2">
-    <i class="fa-regular fa-circle-user"></i>
- <p class="details">details:</p>
-
-
- <p class="c1">
-    <p class="no1">1</p>
- </p>
- <p class="c2">
-    <p class="no2">2</p>
- </p>
-
-    <form method="post">
-        <label class="pr1" for="prname">Product name      </label>
-        <br>
-        <input class="pr2" type="bno" id="prname" name="prname" placeholder="Enter the Name">
-        <label class="bn1" for="batchno">Batch no      </label>
-        <br>
-        <input class="bn2" type="number" id="batchno" name="batchno" placeholder="Enter the Number">
-        <label class="mno1" for="modelno">Model no </label>
-        <br>
-        <input class="mno2" type="number" id="modelno" name="modelno" placeholder="Enter the Number">
-        <label class="n1" for="quantity">No. of. quantity    </label>
-        <br>
-        <input class="n2" type="number" id="quantity" name="quantity" placeholder="Enter the Number">
-        <label class="mna1" for="maname">Manufacturing name   </label>
-        <br>
-        <input class="mna2" type="text" id="maname" name="maname" placeholder="Enter the Name">
-    </form>
-    <p class="next">
-       <a class="anchor" href="{% url 'write2' %}"> <p class="next1"  >
-        Next
+    <div class="container">
+        <div class="div1">
+            <p><a  class="hii" >Write</a></p>
+            <p><a   href="{% url 'read' %}">Read</a></p>
+            <p><a   href="{% url 'track' %}">Track</a></p>
+      </div>
+ <div class="div22">
+  
+    <form action="{% url 'register_w1' %}"  method="post" class="div2" >
+        {%csrf_token%}
+        <p class="details">details:</p>
+        <p class="no1">1</p>
         
-       </p></a>
-    </p>
-   
- 
-</p>
+    <label class="pr1" for="prname">Product name     </label>
+    <input class="pr2" type="text" name="prname" placeholder="Enter the Name">
+    <label class="bn1" for="batchno">Batch no      </label>
+    <input class="bn2" type="number"  name="batchno" placeholder="Enter the Number">
+    <label class="mno1" for="modelno">Model no </label>
+    <input class="mno2" type="number" name="modelno" placeholder="Enter the Number">
+    <label class="n1" for="quantity">No. of. quantity    </label>
+    <input class="n2" type="number"  name="quantity" placeholder="Enter the Number">
+    <label class="mna1" for="maname">Manufacturing name   </label>
+    <input class="mna2" type="text"  name="maname" placeholder="Enter the Name">
+    <button class="next" type='submit'> 
+        Next
+   </a> </button>
+</form>
 
-</p>
+  
+
+
+ </div>
 </body>
 </html>
